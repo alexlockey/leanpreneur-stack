@@ -26,15 +26,18 @@ If you are looking for a turnkey AI-agency consultancy, this is not it. The Stac
 ## Repository structure
 
 ```
-/core            Skills curated and maintained by Alex Lockey
-/community       Skills contributed by Leanpreneur Community members
-/docs            Concepts, conventions, contributor guide
-LICENSE          MIT
-README.md        This file
-CONTRIBUTING.md  How to add a skill
+/core              Skills curated and maintained by Alex Lockey
+/community         Skills contributed by Leanpreneur Community members
+/docs/concepts.md  What a skill is, two-tier model, context layer
+/docs/patterns/    Adoptable behavioural rules and operating patterns
+LICENSE            MIT
+README.md          This file
+CONTRIBUTING.md    How to add a skill
 ```
 
 Each skill lives in its own folder and follows the `SKILL.md` convention popularised by Anthropic's skills ecosystem. A skill folder may also contain reference files, examples, or scripts.
+
+`/docs/patterns/` is for adoptable behavioural rules — operating conventions you slot into your own context layer, not skills that an IDE invokes. Examples: trust ladders, error-iteration discipline, broken-systems tracking. They sit alongside skills because most operators need both.
 
 ## How to use a skill
 
