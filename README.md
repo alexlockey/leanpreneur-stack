@@ -39,6 +39,18 @@ Each skill lives in its own folder and follows the `SKILL.md` convention popular
 
 `/docs/patterns/` is for adoptable behavioural rules — operating conventions you slot into your own context layer, not skills that an IDE invokes. Examples: trust ladders, error-iteration discipline, broken-systems tracking. They sit alongside skills because most operators need both.
 
+## Portable by design
+
+The Stack ships skills, patterns, and conventions. None of them name a vendor model.
+
+Skill bodies refer to models by tier (`precision`, `default`, `fast`, `research`), not by name (`opus`, `gpt-5`, etc). Frontmatter `model:` fields, if present, use the same tier names. The mapping from tier to vendor model id lives in exactly one place: a `tools/model-call.py` shim in the consuming OS.
+
+That means you can run /core skills on Anthropic, OpenAI, Google, or local Llama without touching skill bodies. You change one file when you swap vendors. The Stack stays vendor-neutral as a constitutional commitment.
+
+If you fork The Stack into your own OS, drop in a shim with the same `call_model(prompt, tier="default") -> str` contract and you inherit portability.
+
+**Why this matters for an open-source skills library.** A skill that says "use Opus to do X" works for one vendor and one moment in time. A skill that says "use a precision model to do X" works forever, for every vendor, and stays alive as model markets churn.
+
 ## How to use a skill
 
 1. Clone or download the repo.
