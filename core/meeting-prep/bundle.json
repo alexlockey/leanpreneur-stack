@@ -1,0 +1,22 @@
+{
+  "schema": "afcs.skillpack.bundle/1",
+  "name": "meeting-prep",
+  "version": "1.0",
+  "stamped_utc": "2026-05-24T09:59:21+00:00",
+  "upstream_url": "https://github.com/alexlockey/leanpreneur-stack/tree/main/core/meeting-prep",
+  "model": null,
+  "files": {
+    "SKILL.md": "51b2a0a3317f9d93d9b11ca0eef3adba6388223fd8e16797a0cc6e08aef11891"
+  },
+  "file_count": 1,
+  "synced_from_files": null,
+  "synced_from_ref": null,
+  "version_history": [
+    {
+      "version": "1.0",
+      "stamped_utc": "2026-05-24T09:59:21+00:00",
+      "file_count": 1
+    }
+  ],
+  "generated_by": "run-skillpack-reference.py 1.0.0"
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "afcs.skillpack.bundle/1",
+  "name": "entity-lookup",
+  "version": "1.0",
+  "stamped_utc": "2026-05-24T09:59:20+00:00",
+  "upstream_url": "https://github.com/alexlockey/leanpreneur-stack/tree/main/core/entity-lookup",
+  "model": null,
+  "files": {
+    "SKILL.md": "88de033e7099e2f3839f8f49ee9863ed99b424f8710667f55184a10f0143d19c"
+  },
+  "file_count": 1,
+  "synced_from_files": null,
+  "synced_from_ref": null,
+  "version_history": [
+    {
+      "version": "1.0",
+      "stamped_utc": "2026-05-24T09:59:20+00:00",
+      "file_count": 1
+    }
+  ],
+  "generated_by": "run-skillpack-reference.py 1.0.0"
+}

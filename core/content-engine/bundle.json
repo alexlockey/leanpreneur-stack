@@ -1,0 +1,29 @@
+{
+  "schema": "afcs.skillpack.bundle/1",
+  "name": "content-engine",
+  "version": "1.1",
+  "stamped_utc": "2026-05-24T09:59:20+00:00",
+  "upstream_url": "https://github.com/alexlockey/leanpreneur-stack/tree/main/core/content-engine",
+  "model": "default",
+  "files": {
+    "README.md": "25f224b67528b63513ba0b03754c10e98570677314816f8717ac1d869b6093bd",
+    "carousel-builder/SKILL.md": "4b0f8a90694433e768942ff627f6c2e93b09249c18257e9ed6e964ddf2e90f9c",
+    "comment-strategy/SKILL.md": "2e1c8b75a7c5c45d2796cd16cef380c1727dc7b9067a208d1c4291c64f031de8",
+    "content-calendar/SKILL.md": "4b1acce917cc0d9a58f9deb6b7799f1574474064e86f28965df95fc6a2635328",
+    "content-repurposer/SKILL.md": "8b5803550d272c81e604e6ea5dddc32a458f79bdcd7394751d4acd7ab57be68b",
+    "cta-handraiser/SKILL.md": "de8289b1627efed22ee78d25fd68cf3c3d567ed89997170dafc42e602a132246",
+    "hook-writer/SKILL.md": "a0ff98910f880f887d48f73a888625337d1a58d3529d666939134e8bcf036c36",
+    "video-to-content/SKILL.md": "95653cdbd2a405869216c16e65a54e2bbd30f640d1b5e920f2345da87333679b"
+  },
+  "file_count": 8,
+  "synced_from_files": null,
+  "synced_from_ref": null,
+  "version_history": [
+    {
+      "version": "1.1",
+      "stamped_utc": "2026-05-24T09:59:20+00:00",
+      "file_count": 8
+    }
+  ],
+  "generated_by": "run-skillpack-reference.py 1.0.0"
+}
